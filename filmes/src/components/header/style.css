@@ -1,0 +1,24 @@
+.LogoNav{
+    display: flex;
+    background-color: #9BD2DE;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;   
+}
+
+.Logo h3{
+    margin-left: 100px;
+}
+
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.link{
+    text-decoration: none;
+    color: #4b2124;
+    font-weight: bold;
+}

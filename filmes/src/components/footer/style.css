@@ -1,0 +1,13 @@
+hr{
+    height: 180px;
+    margin: 50px;
+    color: black;
+}
+
+.Footer{
+    background-color: #F6511D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
