@@ -1,28 +1,24 @@
-.ImageMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.ImageMain>img{
+.Column1>img{
     height: 100px;
     width: 100px;
 }
 
-.FilmeGenero{
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    margin-top: 25px;
-    margin-left: 55px;
+.Column2>img{
+    height: 100px;
+    width: 100px;
 }
 
-.ListarFilmes{
-    margin: 50px;
+.TituloStart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+
 }
-.TextoListar{
-    margin-left:-1100px;
+.Main{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
 }
 
 .bt{

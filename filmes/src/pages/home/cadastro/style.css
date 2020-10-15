@@ -1,0 +1,9 @@
+#permissao{
+    width: 300px;
+    height: 40px;
+}
+
+.bott{
+    display: flex;
+    justify-content: center;
+}

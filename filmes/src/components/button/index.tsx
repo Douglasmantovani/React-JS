@@ -1,14 +1,15 @@
 import React, { InputHTMLAttributes } from 'react'
+import Input from '../input';
+import '../button/style.css'
 
 interface ButtonProps{
-    text: string;
-    ClassName:string;
+    value: string;
 }
 
-const Button: React.FC<ButtonProps> =({text,ClassName,...rest}) =>{
+const Button: React.FC<ButtonProps> =({value,...rest}) =>{
     return(
         <div >
-           <button className={ClassName}>{text}</button>
+           <input value={value} className="botao" type="submit" />
         </div>
     );
 }

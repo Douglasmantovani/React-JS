@@ -1,13 +1,9 @@
 .LogoNav{
     display: flex;
     background-color: #9BD2DE;
-    height: 100px;
+    height: 150px;
     align-items: center;
     justify-content: space-around;   
-}
-
-.Logo h3{
-    margin-left: 100px;
 }
 
 .Nav{
