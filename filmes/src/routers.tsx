@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter,Route, Router} from 'react-router-dom'
 import Cadastro from './pages/home/cadastro';
 import Filme from './pages/home/filme';
+import FilmeComum from './pages/home/filmeComum';
 import Genero from './pages/home/genero/indeix';
 import Home from './pages/home/home/index'
 import Login from './pages/home/login/index'
@@ -16,6 +17,7 @@ function Routers(){
       <Route path="/perfil" component={Perfil}/>
       <Route path="/filme" component={Filme}/>
       <Route path="/genero" component={Genero}/>
+      <Route path="/filmecomum" component={FilmeComum}/>
       
       </BrowserRouter>
     );

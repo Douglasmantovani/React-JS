@@ -4,12 +4,13 @@ import '../button/style.css'
 
 interface ButtonProps{
     value: string;
+    Onclick?:any
 }
 
-const Button: React.FC<ButtonProps> =({value,...rest}) =>{
+const Button: React.FC<ButtonProps> =({value,Onclick,...rest}) =>{
     return(
         <div >
-           <input value={value} className="botao" type="submit" />
+           <input value={value} onClick={Onclick}  className="botao" type="submit"  />
         </div>
     );
 }
