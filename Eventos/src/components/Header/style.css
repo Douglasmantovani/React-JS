@@ -1,0 +1,29 @@
+
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.deco{
+text-decoration:none;
+color: black;
+}
+
+.Completo{
+    background-color: #DDD;
+    width: 100%;
+    
+}
+
+nav{
+    width: 300px;
+}
